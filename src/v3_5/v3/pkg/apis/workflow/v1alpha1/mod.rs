@@ -58,6 +58,9 @@ pub use self::cache::Cache;
 mod client_cert_auth;
 pub use self::client_cert_auth::ClientCertAuth;
 
+mod column;
+pub use self::column::Column;
+
 mod condition;
 pub use self::condition::Condition;
 
@@ -136,6 +139,9 @@ pub use self::http_header::HTTPHeader;
 mod http_header_source;
 pub use self::http_header_source::HTTPHeaderSource;
 
+mod info_response;
+pub use self::info_response::InfoResponse;
+
 mod inputs;
 pub use self::inputs::Inputs;
 
@@ -144,6 +150,9 @@ pub use self::label_value_from::LabelValueFrom;
 
 mod lifecycle_hook;
 pub use self::lifecycle_hook::LifecycleHook;
+
+mod link;
+pub use self::link::Link;
 
 mod manifest_from;
 pub use self::manifest_from::ManifestFrom;
